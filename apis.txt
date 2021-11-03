@@ -1,0 +1,23 @@
+Part 1 SWAPI
+1) swapi.dev/api/people/?search=darth vader
+2) swapi.dev/api/planets/?search=alderaan
+3} swapi.dev/api/starships/?search=mill
+4) swapi.dev/api/people/?search=c-3
+5) swapi.dev/api/people/?search=obi
+6) swapi.dev/api/starships/?search=mill
+
+Part 2 Social Mountain
+1) Post takes in a body with text as a parameter
+2) Get returns an array of all posts
+3) https://practiceapi.devmountain.com/api/posts/555
+4) 200, 409
+5) https://practiceapi.devmountain.com/api/posts/
+body
+{
+    "text": "Colby"
+}
+6) https://practiceapi.devmountain.com/api/posts/?id=217
+7) https://practiceapi.devmountain.com/api/posts/filter/?text=blue
+8) application/json; charset=utf-8
+9) if it was missing a query id or body text to supply the put with
+10) You just get all the posts back because the get requests aren't built to take in queries
